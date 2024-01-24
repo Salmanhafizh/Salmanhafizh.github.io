@@ -127,7 +127,10 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+  .wrap img {
+    width: 90px;
+  }
   .login {
-    width: 342px;
+    width: 312px;
   }
 }

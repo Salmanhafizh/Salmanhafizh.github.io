@@ -86,6 +86,10 @@ body {
   margin-top: 5px;
 }
 
+.logini-form button:hover {
+  background-color: blue;
+}
+
 .additional {
   width: 100%;
   display: flex;

@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #ece4e4;
+  font-family: "Poppins";
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  background: linear-gradient(to right#f8cf76, #ff54e3);
+  margin-top: 30px;
+}
+
+.wrap img {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.login {
+  width: 552px;
+  height: 420px;
+  background: linear-gradient(to right, #f8cf76, #ff54e3);
+  border-radius: 10px;
+}
+
+.card-block {
+  width: 100%;
+  height: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.card-block p {
+  margin: 10px 0px 25px 0px;
+  font-weight: 600;
+}
+
+.login-form {
+  width: 100%;
+  height: auto;
+}
+
+.login-form input {
+  box-shadow: 0px 1px 1px #610a52;
+}
+
+.login-form input,
+.login-form button {
+  outline: none;
+  padding: 5px;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  display: block;
+}
+
+.login-form button {
+  background-color: purple;
+  color: white;
+  font-weight: 700;
+  height: 43px;
+  margin-top: 5px;
+}
+
+.additional {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.additional a {
+  margin-top: 13px;
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+}
+
+.vendor {
+  width: 100%;
+  height: 75px;
+  padding: 10px;
+  margin-top: 30px;
+  border-top: 1px solid rgb(128, 128, 128, 0.3);
+}
+
+.vendor img {
+  margin: 10px auto;
+}
+
+/* Viewport */
+@media only screen and (max-width: 600px) {
+  /* aturan CSS untuk layar dengan lebar maksimal 600px */
+  .login {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .login {
+    width: 342px;
+  }
+}
